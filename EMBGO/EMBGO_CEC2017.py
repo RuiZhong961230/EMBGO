@@ -17,7 +17,7 @@ FitPop = np.zeros(PopSize)  # the fitness value of all Pop
 curFEs = 0  # the current number of fitness evaluations
 FuncNum = 1  # the serial number of benchmark function
 curIter = 0  # the current number of generations
-MaxIter = int(MaxFEs / PopSize / 2)
+MaxIter = int(MaxFEs / PopSize)
 curBest = np.zeros(DimSize)  # the best individual in the current generation
 FitBest = 0  # the fitness of the best individual in the current generation
 curWorst = np.zeros(DimSize)  # the worst individual in the current generation
@@ -138,7 +138,7 @@ def main(dim):
     DimSize = dim
     Pop = np.zeros((PopSize, dim))
     MaxFEs = dim * 1000
-    MaxIter = int(MaxFEs / PopSize / 2)
+    MaxIter = int(MaxFEs / PopSize)
     LB = [-100] * dim
     UB = [100] * dim
 
