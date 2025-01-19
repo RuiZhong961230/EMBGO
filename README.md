@@ -19,7 +19,7 @@ volume = {113},
 pages = {150-168},  
 year = {2025},  
 issn = {1110-0168},  
-doi = {https://doi.org/10.1016/j.aej.2024.11.035},  
+doi = {https://doi.org/10.1016/j.aej.2024.11.035 },  
 author = {Rui Zhong and Yuefeng Xu and Chao Zhang and Jun Yu},  
 }
 
