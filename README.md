@@ -24,4 +24,7 @@ author = {Rui Zhong and Yuefeng Xu and Chao Zhang and Jun Yu},
 }
 
 ## Datasets and Libraries
-CEC benchmarks are provided by the opfunu library, engineering problems are provided by the enoppy library, and the dataset of adversarial robustness neural architecture search (ARNAS) is downloaded from https://steffen-jung.github.io/robustness/.
+CEC benchmarks and Engineering problems are provided by opfunu==1.0.0 and enoppy==0.1.1 libraries, respectively. The dataset of adversarial robustness neural architecture search (ARNAS) is downloaded from https://steffen-jung.github.io/robustness/.
+
+## Contact
+If you have any questions, please don't hesitate to contact zhongrui[at]iic.hokudai.ac.jp
